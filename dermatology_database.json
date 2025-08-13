@@ -1,0 +1,588 @@
+{
+  "dermatology_medicines_database": {
+    "metadata": {
+      "title": "Comprehensive Dermatology Medicines Database",
+      "description": "Complete List of Dermatological Medications and Their Therapeutic Uses",
+      "categories": 12,
+      "total_medications": 89
+    },
+    "categories": {
+      "acne_medications": {
+        "topical_treatments": [
+          {
+            "name": "Benzoyl Peroxide",
+            "rating": 7.9,
+            "mechanism_of_action": "Antimicrobial, keratolytic",
+            "specific_uses": "Kills P. acnes bacteria, reduces inflammation, unclogs pores"
+          },
+          {
+            "name": "Tretinoin (Retin-A)",
+            "rating": 7.9,
+            "mechanism_of_action": "Retinoid, comedolytic",
+            "specific_uses": "Normalizes skin cell turnover, prevents comedone formation"
+          },
+          {
+            "name": "Adapalene (Differin)",
+            "rating": 6.3,
+            "mechanism_of_action": "Third-generation retinoid",
+            "specific_uses": "Mild to moderate acne, less irritating than tretinoin"
+          },
+          {
+            "name": "Clindamycin",
+            "rating": 7.4,
+            "mechanism_of_action": "Topical antibiotic",
+            "specific_uses": "Reduces acne-causing bacteria, anti-inflammatory"
+          },
+          {
+            "name": "Salicylic Acid",
+            "rating": 9.8,
+            "mechanism_of_action": "Beta-hydroxy acid, keratolytic",
+            "specific_uses": "Exfoliates dead skin cells, unclogs pores"
+          },
+          {
+            "name": "Epiduo",
+            "rating": 7.3,
+            "mechanism_of_action": "Combination therapy",
+            "specific_uses": "Adapalene + benzoyl peroxide for enhanced efficacy"
+          },
+          {
+            "name": "Dapsone (Aczone)",
+            "rating": 7.4,
+            "mechanism_of_action": "Anti-inflammatory",
+            "specific_uses": "Reduces inflammatory acne lesions"
+          }
+        ],
+        "oral_treatments": [
+          {
+            "name": "Isotretinoin (Accutane)",
+            "rating": 7.9,
+            "mechanism_of_action": "Systemic retinoid",
+            "specific_uses": "Severe cystic acne, reduces sebum production by 90%"
+          },
+          {
+            "name": "Doxycycline",
+            "rating": 6.7,
+            "mechanism_of_action": "Tetracycline antibiotic",
+            "specific_uses": "Moderate to severe inflammatory acne"
+          },
+          {
+            "name": "Minocycline",
+            "rating": 5.7,
+            "mechanism_of_action": "Tetracycline antibiotic",
+            "specific_uses": "Anti-inflammatory properties, acne treatment"
+          },
+          {
+            "name": "Spironolactone",
+            "rating": 7.2,
+            "mechanism_of_action": "Anti-androgen",
+            "specific_uses": "Hormonal acne in adult women, reduces oil production"
+          },
+          {
+            "name": "Tetracycline",
+            "rating": 6.4,
+            "mechanism_of_action": "Broad-spectrum antibiotic",
+            "specific_uses": "Inflammatory acne, first-line oral antibiotic"
+          }
+        ]
+      },
+      "eczema_dermatitis_medications": {
+        "topical_corticosteroids": [
+          {
+            "name": "Hydrocortisone",
+            "rating": 5.7,
+            "potency_class": "Class VII (Mild)",
+            "specific_uses": "Mild eczema, facial dermatitis, pediatric use"
+          },
+          {
+            "name": "Desonide",
+            "rating": 8.8,
+            "potency_class": "Class VI (Mild-Moderate)",
+            "specific_uses": "Sensitive areas, pediatric atopic dermatitis"
+          },
+          {
+            "name": "Triamcinolone",
+            "rating": 7.9,
+            "potency_class": "Class IV (Medium)",
+            "specific_uses": "Moderate eczema, body areas"
+          },
+          {
+            "name": "Mometasone (Elocon)",
+            "rating": 7.2,
+            "potency_class": "Class III (Medium-High)",
+            "specific_uses": "Moderate to severe eczema"
+          },
+          {
+            "name": "Fluocinonide",
+            "rating": 8.9,
+            "potency_class": "Class II (High)",
+            "specific_uses": "Severe dermatitis, thick plaques"
+          },
+          {
+            "name": "Clobetasol",
+            "rating": 9.0,
+            "potency_class": "Class I (Super High)",
+            "specific_uses": "Severe, resistant eczema, short-term use"
+          },
+          {
+            "name": "Betamethasone",
+            "rating": 8.3,
+            "potency_class": "Class I-III (varies)",
+            "specific_uses": "Severe inflammatory conditions"
+          }
+        ],
+        "non_steroidal_treatments": [
+          {
+            "name": "Tacrolimus (Protopic)",
+            "rating": 8.5,
+            "mechanism_of_action": "Calcineurin inhibitor",
+            "specific_uses": "Moderate to severe atopic dermatitis, steroid-sparing"
+          },
+          {
+            "name": "Pimecrolimus (Elidel)",
+            "rating": 7.8,
+            "mechanism_of_action": "Calcineurin inhibitor",
+            "specific_uses": "Mild to moderate atopic dermatitis, facial eczema"
+          },
+          {
+            "name": "Crisaborole (Eucrisa)",
+            "rating": 6.2,
+            "mechanism_of_action": "PDE4 inhibitor",
+            "specific_uses": "Mild to moderate atopic dermatitis"
+          },
+          {
+            "name": "Ruxolitinib (Opzelura)",
+            "rating": 8.1,
+            "mechanism_of_action": "JAK inhibitor",
+            "specific_uses": "Atopic dermatitis, vitiligo"
+          }
+        ]
+      },
+      "psoriasis_medications": {
+        "topical_treatments": [
+          {
+            "name": "Anthralin",
+            "rating": 7.5,
+            "mechanism_of_action": "Anti-proliferative",
+            "specific_uses": "Plaque psoriasis, reduces cell growth"
+          },
+          {
+            "name": "Coal Tar",
+            "rating": 8.2,
+            "mechanism_of_action": "Anti-inflammatory, antipruritic",
+            "specific_uses": "Psoriasis, seborrheic dermatitis"
+          },
+          {
+            "name": "Calcipotriene",
+            "rating": 7.8,
+            "mechanism_of_action": "Vitamin D3 analog",
+            "specific_uses": "Plaque psoriasis, normalizes cell growth"
+          },
+          {
+            "name": "Tazarotene (Tazorac)",
+            "rating": 6.9,
+            "mechanism_of_action": "Topical retinoid",
+            "specific_uses": "Plaque psoriasis, normalizes differentiation"
+          }
+        ],
+        "systemic_treatments": [
+          {
+            "name": "Methotrexate",
+            "rating": 7.6,
+            "mechanism_of_action": "Immunosuppressant, antimetabolite",
+            "specific_uses": "Severe psoriasis, psoriatic arthritis"
+          },
+          {
+            "name": "Acitretin (Soriatane)",
+            "rating": 6.8,
+            "mechanism_of_action": "Oral retinoid",
+            "specific_uses": "Severe psoriasis, pustular psoriasis"
+          },
+          {
+            "name": "Cyclosporine",
+            "rating": 7.4,
+            "mechanism_of_action": "Immunosuppressant",
+            "specific_uses": "Severe psoriasis, short-term use"
+          },
+          {
+            "name": "Apremilast (Otezla)",
+            "rating": 6.5,
+            "mechanism_of_action": "PDE4 inhibitor",
+            "specific_uses": "Psoriatic arthritis, plaque psoriasis"
+          }
+        ],
+        "biologic_treatments": [
+          {
+            "name": "Adalimumab (Humira)",
+            "rating": 8.2,
+            "mechanism_of_action": "TNF-α inhibitor",
+            "specific_uses": "Moderate to severe psoriasis"
+          },
+          {
+            "name": "Etanercept (Enbrel)",
+            "rating": 7.9,
+            "mechanism_of_action": "TNF-α inhibitor",
+            "specific_uses": "Psoriasis, psoriatic arthritis"
+          },
+          {
+            "name": "Ustekinumab (Stelara)",
+            "rating": 8.5,
+            "mechanism_of_action": "IL-12/23 inhibitor",
+            "specific_uses": "Moderate to severe psoriasis"
+          },
+          {
+            "name": "Secukinumab (Cosentyx)",
+            "rating": 8.7,
+            "mechanism_of_action": "IL-17A inhibitor",
+            "specific_uses": "Moderate to severe psoriasis"
+          },
+          {
+            "name": "Ixekizumab (Taltz)",
+            "rating": 8.6,
+            "mechanism_of_action": "IL-17A inhibitor",
+            "specific_uses": "Moderate to severe psoriasis"
+          }
+        ]
+      },
+      "fungal_infection_medications": {
+        "topical_antifungals": [
+          {
+            "name": "Clotrimazole (Lotrimin)",
+            "rating": 8.1,
+            "mechanism_of_action": "Azole antifungal",
+            "specific_uses": "Athlete's foot, ringworm, jock itch, candidiasis"
+          },
+          {
+            "name": "Ketoconazole (Nizoral)",
+            "rating": 7.8,
+            "mechanism_of_action": "Azole antifungal",
+            "specific_uses": "Seborrheic dermatitis, fungal infections"
+          },
+          {
+            "name": "Terbinafine (Lamisil)",
+            "rating": 8.4,
+            "mechanism_of_action": "Allylamine antifungal",
+            "specific_uses": "Athlete's foot, ringworm, nail fungus"
+          },
+          {
+            "name": "Miconazole",
+            "rating": 7.6,
+            "mechanism_of_action": "Azole antifungal",
+            "specific_uses": "Yeast infections, athlete's foot"
+          },
+          {
+            "name": "Nystatin",
+            "rating": 7.2,
+            "mechanism_of_action": "Polyene antifungal",
+            "specific_uses": "Candida infections, diaper rash"
+          }
+        ],
+        "oral_antifungals": [
+          {
+            "name": "Fluconazole",
+            "rating": 8.0,
+            "mechanism_of_action": "Azole antifungal",
+            "specific_uses": "Systemic candidiasis, severe fungal infections"
+          },
+          {
+            "name": "Itraconazole",
+            "rating": 7.5,
+            "mechanism_of_action": "Azole antifungal",
+            "specific_uses": "Nail fungus, severe skin fungal infections"
+          },
+          {
+            "name": "Terbinafine (oral)",
+            "rating": 7.8,
+            "mechanism_of_action": "Allylamine antifungal",
+            "specific_uses": "Onychomycosis, severe dermatophyte infections"
+          },
+          {
+            "name": "Griseofulvin",
+            "rating": 6.9,
+            "mechanism_of_action": "Antifungal antibiotic",
+            "specific_uses": "Ringworm, hair and nail fungal infections"
+          }
+        ]
+      },
+      "bacterial_skin_infection_medications": {
+        "topical_antibiotics": [
+          {
+            "name": "Mupirocin",
+            "rating": 8.6,
+            "mechanism_of_action": "Protein synthesis inhibitor",
+            "specific_uses": "Impetigo, secondary bacterial infections"
+          },
+          {
+            "name": "Clindamycin",
+            "rating": 7.4,
+            "mechanism_of_action": "Lincosamide antibiotic",
+            "specific_uses": "Bacterial skin infections, acne"
+          },
+          {
+            "name": "Erythromycin",
+            "rating": 6.8,
+            "mechanism_of_action": "Macrolide antibiotic",
+            "specific_uses": "Bacterial infections, acne"
+          },
+          {
+            "name": "Bacitracin",
+            "rating": 7.1,
+            "mechanism_of_action": "Peptide antibiotic",
+            "specific_uses": "Minor cuts, wounds, impetigo"
+          }
+        ],
+        "oral_antibiotics": [
+          {
+            "name": "Dicloxacillin",
+            "rating": 8.2,
+            "mechanism_of_action": "Penicillinase-resistant penicillin",
+            "specific_uses": "Staphylococcal skin infections"
+          },
+          {
+            "name": "Cephalexin",
+            "rating": 8.2,
+            "mechanism_of_action": "First-generation cephalosporin",
+            "specific_uses": "Cellulitis, skin and soft tissue infections"
+          },
+          {
+            "name": "Erythromycin",
+            "rating": 7.0,
+            "mechanism_of_action": "Macrolide antibiotic",
+            "specific_uses": "Streptococcal infections, penicillin allergy"
+          },
+          {
+            "name": "Clindamycin",
+            "rating": 7.8,
+            "mechanism_of_action": "Lincosamide antibiotic",
+            "specific_uses": "MRSA infections, severe skin infections"
+          }
+        ]
+      },
+      "viral_skin_infection_medications": {
+        "antiviral_agents": [
+          {
+            "name": "Acyclovir (Zovirax)",
+            "rating": 8.1,
+            "mechanism_of_action": "DNA polymerase inhibitor",
+            "specific_uses": "Herpes simplex, herpes zoster (shingles)"
+          },
+          {
+            "name": "Valacyclovir (Valtrex)",
+            "rating": 8.4,
+            "mechanism_of_action": "Acyclovir prodrug",
+            "specific_uses": "Herpes simplex, herpes zoster, better bioavailability"
+          },
+          {
+            "name": "Famciclovir (Famvir)",
+            "rating": 8.0,
+            "mechanism_of_action": "Penciclovir prodrug",
+            "specific_uses": "Herpes zoster, recurrent herpes simplex"
+          },
+          {
+            "name": "Penciclovir (Denavir)",
+            "rating": 7.2,
+            "mechanism_of_action": "DNA polymerase inhibitor",
+            "specific_uses": "Herpes labialis (cold sores)"
+          }
+        ]
+      },
+      "hyperpigmentation_medications": {
+        "skin_lightening_agents": [
+          {
+            "name": "Hydroquinone",
+            "rating": 4.0,
+            "mechanism_of_action": "Tyrosinase inhibitor",
+            "specific_uses": "Melasma, age spots, post-inflammatory hyperpigmentation"
+          },
+          {
+            "name": "Tretinoin",
+            "rating": 7.7,
+            "mechanism_of_action": "Retinoid, cell turnover",
+            "specific_uses": "Melasma, photodamage, hyperpigmentation"
+          },
+          {
+            "name": "Kojic Acid",
+            "rating": 6.5,
+            "mechanism_of_action": "Tyrosinase inhibitor",
+            "specific_uses": "Natural skin lightening, melasma"
+          },
+          {
+            "name": "Arbutin",
+            "rating": 7.0,
+            "mechanism_of_action": "Tyrosinase inhibitor",
+            "specific_uses": "Gentle skin lightening, sensitive skin"
+          },
+          {
+            "name": "Azelaic Acid",
+            "rating": 7.8,
+            "mechanism_of_action": "Dicarboxylic acid",
+            "specific_uses": "Melasma, post-acne marks, rosacea"
+          }
+        ]
+      },
+      "rosacea_medications": [
+        {
+          "name": "Metronidazole",
+          "rating": 7.6,
+          "mechanism_of_action": "Antiprotozoal, anti-inflammatory",
+          "specific_uses": "Papulopustular rosacea, reduces inflammation"
+        },
+        {
+          "name": "Azelaic Acid",
+          "rating": 7.8,
+          "mechanism_of_action": "Anti-inflammatory, antimicrobial",
+          "specific_uses": "Rosacea, reduces papules and pustules"
+        },
+        {
+          "name": "Brimonidine",
+          "rating": 6.8,
+          "mechanism_of_action": "Alpha-2 agonist",
+          "specific_uses": "Persistent facial erythema in rosacea"
+        },
+        {
+          "name": "Ivermectin",
+          "rating": 7.9,
+          "mechanism_of_action": "Antiparasitic, anti-inflammatory",
+          "specific_uses": "Inflammatory lesions of rosacea"
+        },
+        {
+          "name": "Oxymetazoline",
+          "rating": 7.2,
+          "mechanism_of_action": "Alpha-1A agonist",
+          "specific_uses": "Persistent facial erythema"
+        }
+      ],
+      "seborrheic_dermatitis_medications": [
+        {
+          "name": "Ketoconazole",
+          "rating": 7.8,
+          "mechanism_of_action": "Antifungal",
+          "specific_uses": "Seborrheic dermatitis, dandruff, Malassezia overgrowth"
+        },
+        {
+          "name": "Selenium Sulfide",
+          "rating": 7.5,
+          "mechanism_of_action": "Antifungal, cytostatic",
+          "specific_uses": "Dandruff, seborrheic dermatitis"
+        },
+        {
+          "name": "Zinc Pyrithione",
+          "rating": 8.0,
+          "mechanism_of_action": "Antifungal, antibacterial",
+          "specific_uses": "Dandruff, seborrheic dermatitis"
+        },
+        {
+          "name": "Coal Tar",
+          "rating": 8.2,
+          "mechanism_of_action": "Anti-inflammatory",
+          "specific_uses": "Seborrheic dermatitis, psoriasis"
+        },
+        {
+          "name": "Ciclopirox",
+          "rating": 7.6,
+          "mechanism_of_action": "Antifungal",
+          "specific_uses": "Seborrheic dermatitis, dandruff"
+        }
+      ],
+      "wart_medications": [
+        {
+          "name": "Salicylic Acid",
+          "rating": 9.8,
+          "mechanism_of_action": "Keratolytic",
+          "specific_uses": "Common warts, plantar warts, gradual removal"
+        },
+        {
+          "name": "Cantharidin",
+          "rating": 8.5,
+          "mechanism_of_action": "Vesicant",
+          "specific_uses": "Professional application for wart removal"
+        },
+        {
+          "name": "Imiquimod",
+          "rating": 7.3,
+          "mechanism_of_action": "Immune response modifier",
+          "specific_uses": "Genital warts, flat warts"
+        },
+        {
+          "name": "Cryotherapy",
+          "rating": 8.0,
+          "mechanism_of_action": "Tissue destruction",
+          "specific_uses": "All types of warts, professional treatment"
+        },
+        {
+          "name": "Bleomycin",
+          "rating": 7.8,
+          "mechanism_of_action": "Antineoplastic",
+          "specific_uses": "Recalcitrant warts, intralesional injection"
+        }
+      ],
+      "specialized_treatments": {
+        "jak_inhibitors": [
+          {
+            "name": "Abrocitinib (Cibinqo)",
+            "rating": 7.9,
+            "mechanism_of_action": "JAK1 inhibitor",
+            "specific_uses": "Moderate to severe atopic dermatitis"
+          },
+          {
+            "name": "Upadacitinib (Rinvoq)",
+            "rating": 8.1,
+            "mechanism_of_action": "JAK1 inhibitor",
+            "specific_uses": "Atopic dermatitis, psoriatic arthritis"
+          },
+          {
+            "name": "Baricitinib",
+            "rating": 7.6,
+            "mechanism_of_action": "JAK1/2 inhibitor",
+            "specific_uses": "Alopecia areata, atopic dermatitis"
+          },
+          {
+            "name": "Ruxolitinib (Opzelura)",
+            "rating": 8.1,
+            "mechanism_of_action": "JAK1/2 inhibitor",
+            "specific_uses": "Atopic dermatitis, vitiligo"
+          }
+        ],
+        "immunosuppressants": [
+          {
+            "name": "Azathioprine (Imuran)",
+            "rating": 7.4,
+            "mechanism_of_action": "Purine analog",
+            "specific_uses": "Severe eczema, autoimmune skin diseases"
+          },
+          {
+            "name": "Mycophenolate Mofetil",
+            "rating": 7.8,
+            "mechanism_of_action": "Immunosuppressant",
+            "specific_uses": "Autoimmune skin conditions, severe atopic dermatitis"
+          }
+        ]
+      },
+      "hair_loss_medications": [
+        {
+          "name": "Minoxidil",
+          "rating": 7.5,
+          "mechanism_of_action": "Vasodilator, hair growth stimulant",
+          "specific_uses": "Androgenetic alopecia, alopecia areata"
+        },
+        {
+          "name": "Finasteride",
+          "rating": 7.8,
+          "mechanism_of_action": "5α-reductase inhibitor",
+          "specific_uses": "Male pattern baldness, androgenetic alopecia"
+        },
+        {
+          "name": "Dutasteride",
+          "rating": 8.0,
+          "mechanism_of_action": "5α-reductase inhibitor",
+          "specific_uses": "Male pattern baldness, more potent than finasteride"
+        }
+      ]
+    },
+    "usage_notes": {
+      "ratings": "Ratings are on a scale of 1-10 based on efficacy, safety, and clinical acceptance",
+      "contraindications": "Always consult prescribing information for contraindications, drug interactions, and side effects",
+      "prescription_status": "Many medications require prescription - consult healthcare provider",
+      "pregnancy_safety": "Pregnancy safety varies by medication - always verify before use in pregnant/nursing patients"
+    }
+  }
+}

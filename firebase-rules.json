@@ -1,0 +1,32 @@
+{
+  "rules": {
+    ".read": true,
+    ".write": true,
+    "chatSessions": {
+      "$userId": {
+        ".read": true,
+        ".write": true,
+        "messages": {
+          "$messageId": {
+            ".validate": "newData.hasChildren(['timestamp', 'userMessage', 'aiResponse'])"
+          }
+        }
+      }
+    },
+    "users": {
+      "$userId": {
+        ".read": true,
+        ".write": true,
+        "medicalHistory": {
+          "$recordId": {
+            ".validate": "newData.hasChildren(['timestamp', 'date'])"
+          }
+        }
+      }
+    },
+    "test": {
+      ".read": true,
+      ".write": true
+    }
+  }
+}
